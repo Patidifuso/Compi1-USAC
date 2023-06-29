@@ -1,10 +1,10 @@
-#__PARCIAL 2__
+# __PARCIAL 2__
 ---
-##__ENTRADA__
+## __ENTRADA__
 ```sh
 ( id + id * id ) + ( id + id * id )
 ```
-##__GRAMATICA__
+## __GRAMATICA__
 ```sh
 E -> E + T 
 E -> T 
@@ -13,7 +13,7 @@ T -> F
 F -> ( E )
 F -> id
 ```
-##__DERIVACION POR LA IZQUIERDA__
+## __DERIVACION POR LA IZQUIERDA__
 ```sh
 E -> E + T
 E -> T + T
@@ -37,7 +37,7 @@ E -> ( id + id * id ) + ( id + T * F )
 E -> ( id + id * id ) + ( id + id * F )
 E -> ( id + id * id ) + ( id + id * id )
 ```
-##__DERIVACION POR LA DERECHA__
+## __DERIVACION POR LA DERECHA__
 ```sh
 E -> E + T
 E -> E + F
