@@ -1,0 +1,22 @@
+digraph G {
+    rankdir = LR
+    node[shape = circle]
+    
+    node0[label = A]
+    node1[label = B]
+    node2[label = C]
+    node3[label = D]
+    node4[label = E, shape = doublecircle]
+
+    node0 -> node1 [label=a]
+    node0 -> node2 [label=b]
+    node1 -> node3 [label=b]
+    node1 -> node1 [label=a]
+    node2 -> node1 [label=a]
+    node2 -> node2 [label=b]
+    node3 -> node1 [label=a]
+    node3 -> node4 [label=b]
+    node4 -> node1 [label=a]
+    node4 -> node2 [label=b]
+    
+}
