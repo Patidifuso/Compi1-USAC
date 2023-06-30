@@ -12,7 +12,7 @@
 | D = ε(5) U ε(9) = {1,2,4,5,6,7,9}   | Mov(D,a) = {3,8} = B | Mov(D,b) = {5,10} = E |
 | E = ε(5) U ε(10) = {1,2,4,5,6,7,10} | Mov(E,a) = {3,8} = B | Mov(E,b) = {5} = C    |
 
-## __Resumen de tabla de transiciones __
+## __Resumen de tabla de transiciones__
 | Estado | a | b |
 |:------:|:-:|:-:|
 | A      | B | C |
