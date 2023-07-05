@@ -1,13 +1,7 @@
 # __METODO DE THOMPSON__
 ---
-<div class="pull-right"><img src="imagenes/td.jpg"/>
+<div class="pull-right"><img src="imagenes/td.jpg"></div/>
 El algoritmo Thompson (también conocido como método de Thompson) creado por Ken Thompson y Dennis Ritchie, sirve para obtener autómatas finitos no deterministas con transiciones vacías (AFND-ε) a partir de expresiones regulares (ER).
-
-<<<<<<< HEAD
-</div/>
-=======
-<div class="pull-right"><img src="imagenes/td.jpg"/></div/>
->>>>>>> 1b868401b37d2bab62fb8fa14f3be09e1434861c
 
 ## __EJEMPLO 1__
 ---
