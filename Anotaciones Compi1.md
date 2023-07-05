@@ -1,0 +1,7 @@
+# __UNIDAD1__
+## __METODO DE THOMPSON__
+
+
+ 
+# __UNIDAD2__
+# __UNIDAD3__
