@@ -1,0 +1,63 @@
+digraph G {
+    rankdir=TB;
+
+    node[shape = record]
+    
+    node1[label = "<f0> 1| {F|a|1} |<f2> 1"]
+    node2[label = "<f0> 2| {F|a|2} |<f2> 2"]
+    node3[label = "<f0> 1| {F|.} |<f2> 2"]
+    node4[label = "<f0> 3| {F|a|3} |<f2> 3"]
+    node5[label = "<f0> 1| {F|.} |<f2> 3"]
+    
+    node6[label = "<f0> 4| {F|0|4} |<f2> 4"]
+    node7[label = "<f0> 5| {F|0|5} |<f2> 5"]
+    node8[label = "<f0> 4| {F|.} |<f2> 5"]
+    node9[label = "<f0> 6| {F|0|6} |<f2> 6"]
+    node10[label = "<f0> 4| {F|.} |<f2> 6"]
+    
+    node11[label = "<f0> 1,4| {F|OR} |<f2> 3,6"]
+    
+    node12[label = "<f0> 7| {F|1|7} |<f2> 7"]
+    node13[label = "<f0> 8| {F|1|8} |<f2> 8"]
+    node14[label = "<f0> 7| {F|.} |<f2> 8"]
+    node15[label = "<f0> 9| {F|1|9} |<f2> 9"]
+    node16[label = "<f0> 7| {F|.} |<f2> 9"]
+    
+    node17[label = "<f0> 1,4,7| {F|OR} |<f2> 3,6,9"]
+    
+    node18[label = "<f0> 1,4,7| {F|+} |<f2> 3,6,9"]
+    node19[label = "<f0> 1,4,7| {F|.} |<f2> 10"]
+    node20[label = "<f0> 10| {F|#|10} |<f2> 10"]
+    
+    node3 -> node1;
+    node3 -> node2;
+    node5 -> node3;
+    node5 -> node4;
+    
+    node8 -> node6;
+    node8 -> node7;
+    node10 -> node8;
+    node10 -> node9;
+    
+    node11 -> node5;
+    node11 -> node10;
+    
+    node14 -> node12;
+    node14 -> node13;
+    node16 -> node14;
+    node16 -> node15;
+    
+    node17 -> node11;
+    node17 -> node16;
+    
+    node18 -> node17;
+    node19 -> node18;
+    node19 -> node20;
+    
+    
+    
+    
+    
+    
+    
+}
