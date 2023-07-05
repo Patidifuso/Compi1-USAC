@@ -36,6 +36,19 @@ L' -> ''
 | L' -> id , L'         | P(L') =            { id, ε         } | S(L') = S(L) U S(L') =             { prod, pipe. $ } |
 | L' -> ε               |                                      |                                                      |
 
+## __Tabla de analisis predictivos__
+| No terminales | produccion            | flecha | pipe        | firstid         | id            | , | $       |
+|---------------|-----------------------|--------|-------------|-----------------|---------------|---|---------|
+| S	            | S -> G                |        |             |                 |               |   |         |
+| G	            | G -> prod flecha L G' |        |             |                 |               |   |         |
+| G'            | G' -> P G'            |        | G' -> P G'  |                 |               |   | G' -> ε |
+| P	            | P -> prod flecha L    |        | P -> pipe L |                 |               |   |         |
+| L	            |                       |        |             | L -> firstid L' |               |   |         |
+| L'            | L' -> ε               |        | L' -> ε     |                 | L' -> id , L' |   | L' -> ε |
+
+
+
+
 
 
 
