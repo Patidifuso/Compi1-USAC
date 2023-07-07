@@ -1,0 +1,15 @@
+digraph G {
+    rankdir = LR;
+    node[shape = circle];
+    node1[label = " "];
+    node3[label = " "];
+    node2[label = " "];
+    node4[label = " "];
+    
+    
+    node1 -> node2 [label = Ɛ] ;
+    node2 -> node3 [label = a] ;
+    node3 -> node4 [label = Ɛ] ;
+    node3 -> node2 [lhead = node2, ltail = node3, label = Ɛ] ;
+    node1 -> node4 [label = Ɛ] ;
+}

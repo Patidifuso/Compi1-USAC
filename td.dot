@@ -1,0 +1,31 @@
+digraph G {
+    rankdir = LR;
+    node[shape = circle];
+    node1[label = "1 "];
+    node2[label = "2 "];
+    node3[label = "3 "];
+    node4[label = "4 "];
+    node5[label = "5 "];
+    node6[label = "6 "];
+    node7[label = "7 "];
+    node8[label = "8 "];
+    node9[label = "9 "];
+    node10[label = " "];
+    
+    {rank=same; node2; node3}
+    {rank=same; node4; node5}
+    {rank=same; node6; node7}
+    {rank=same; node8; node9}
+    
+    node1 -> node2 [label = Ɛ] ;
+    node1 -> node3 [label = Ɛ] ;
+    node2 -> node4 [label = Ɛ] ;
+    node2 -> node5 [label = Ɛ] ;
+    node4 -> node6 [label = a] ;
+    node5 -> node7 [label = b] ;
+    node6 -> node8 [label = Ɛ] ;
+    node7 -> node8 [label = Ɛ] ;
+    node3 -> node9 [label = Ɛ] ;
+    node8 -> node10 [label = Ɛ] ;
+    node9 -> node10 [label = Ɛ] ;
+}

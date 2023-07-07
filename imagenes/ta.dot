@@ -1,0 +1,8 @@
+digraph G {
+    rankdir = LR;
+    node[shape = circle];
+    node1[label = " "];
+    node2[label = " "];
+    
+    node1 -> node2 [label = a];
+}
