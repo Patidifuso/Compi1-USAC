@@ -8,7 +8,7 @@
 El algoritmo está orientado a la sintaxis, ya que recorre en forma recursiva hacia arriba el árbo sintáctico para la expresión regular. Para cada subexpresión, el algoritmo construye un AFN con _un solo estado aceptante_.
 
 ## __a__
->![](../imagenes/ta.svg)
+>![](./imagenes/ta.svg)
 ## __ε__
 >![](../imagenes/tb.svg)
 ## __a.b__
