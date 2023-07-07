@@ -1,0 +1,27 @@
+digraph G {
+    rankdir = LR;
+    node[shape = circle];
+    
+    node0[label = "A"];
+    node1[label = "B"];
+    node2[label = "C"];
+    node3[label = "D"];
+    node4[label = "E"];
+    node5[label = "F"];
+    node6[label = "G"];
+    node7[label = "H", shape = doublecircle];
+
+    {rank = same; node1; node2;}
+    {rank = same; node3; node4;}
+
+    node0  -> node1  [label = "a"];
+    node0  -> node2  [label = "b"];
+    node1  -> node3  [label = "b"];
+    node2  -> node2  [label = "b"];
+    node2  -> node4  [label = "a"];
+    node3  -> node3  [label = "b"];
+    node3  -> node5  [label = "a"];
+    node4  -> node5  [label = "a"];
+    node5  -> node6 -> node7 [label = "b"];
+
+}
