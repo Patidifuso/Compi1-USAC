@@ -10,14 +10,14 @@ El algoritmo está orientado a la sintaxis, ya que recorre en forma recursiva ha
 ## __a__
 >![](../imagenes/ta.svg)
 ## __ε__
->![](./imagenes/tb.svg)
+>![](../imagenes/tb.svg)
 ## __a.b__
->![](./imagenes/tc.svg)
+>![](../imagenes/tc.svg)
 ## __a|b|c__
->![](./imagenes/td.svg)
+>![](../imagenes/td.svg)
 ## __a+__
->![](./imagenes/te.svg)
+>![](../imagenes/te.svg)
 ## __a*__
->![](./imagenes/tf.svg)
+>![](../imagenes/tf.svg)
 ## __a?__
->![](./imagenes/tg.svg)
+>![](../imagenes/tg.svg)
