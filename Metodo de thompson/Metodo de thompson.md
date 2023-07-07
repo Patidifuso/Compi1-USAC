@@ -3,7 +3,7 @@
 ## __EJEMPLO 1__
 ---
 ## __Diagrama AFN__
->![](imagenes/t1.svg)
+>![](../imagenes/t1.svg)
 
 ## __Tabla de transiciones__
 |              Estado                 |           a          |            b          |
@@ -24,4 +24,4 @@
 | E      | B | C |
 
 ## __Diagrama AFD__
->![](imagenes/afdt1.svg)
+>![](../imagenes/afdt1.svg)
