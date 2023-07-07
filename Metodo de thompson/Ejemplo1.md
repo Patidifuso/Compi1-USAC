@@ -2,6 +2,11 @@
 
 ## __EJEMPLO 1__
 ---
+## __Expresion regulasr__
+```
+(a|b)*abb
+```
+
 ## __Diagrama AFN__
 >![](../imagenes/t1.svg)
 
