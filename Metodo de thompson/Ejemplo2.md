@@ -1,6 +1,6 @@
 
 
-## __EJEMPLO 1__
+## __EJEMPLO 2__
 ---
 ## __Expresion regulasr__
 ```sh
