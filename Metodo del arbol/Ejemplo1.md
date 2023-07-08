@@ -8,10 +8,10 @@
 ( a a a | 0 0 0 | 1 1 1 )+ #
 ```
 ## __Construccion del arbol__
->![](imagenes/arbol1.svg)
+>![](../imagenes/arbol1.svg)
 
 ## __Arbol con anulables__
->![](imagenes/arbol2.svg)
+>![](../imagenes/arbol2.svg)
 
 ## __Tabla de siguientes__
 | Valor | Nodo i | siguientes(i) |
@@ -40,5 +40,5 @@
 | H = {1,4,7,10} | {2} = B        | {5} = C        | {8} = D        |
 
 ## __AFD__
->![](imagenes/afda1.svg)
+>![](../imagenes/afda1.svg)
 
